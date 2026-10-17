@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+
+# never commit real ID documents
+data/
+jev_results.csv
+
+# PRADO images are not redistributed - download them with tools/prado_download.js
+data_prado/*.jpg
